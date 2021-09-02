@@ -1,3 +1,21 @@
 #!/usr/bin/env ruby
 
 require_relative "../config/environment.rb"
+
+Animal.new(name: "pig")
+Animal.new(name: "sheep")
+Animal.new(name: "horse")
+Animal.new(name: "goat")
+Animal.new(name: "mouse")
+Animal.new(name: "duck")
+
+ids = ["pig", "", "sheep"]
+
+animals = ids.map { |id| GaurenteedAnimal.find(id) }
+
+# If we don't care about nil than we can
+# animals.compact
+# animals.each { |animal| puts animal.name }
+
+# But if we are sending a message, NIL, is something.
+animals.each { |animal| puts animal.name }
