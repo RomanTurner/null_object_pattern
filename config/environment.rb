@@ -5,4 +5,4 @@
 require_relative "../lib/app.rb"
 require_relative "../lib/animal.rb"
 require_relative "../lib/missing_animal.rb"
-require_relative "../lib/gaurenteed_animal.rb"
+require_relative "../lib/guaranteed_animal.rb"

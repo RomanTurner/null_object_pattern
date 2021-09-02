@@ -1,4 +1,4 @@
-# Skeleton Structure
+# Structure
 
 +-- bin
 |   +-- run
@@ -19,23 +19,6 @@ ruby bin/run *runs the program*
 bundle exec rspec *runs test suite*
 
 ## Details
-
-**Bin**
-
-Sets the Environment 
-* the #!/usr/bin/env ruby 
-
-Requires and runs the config / environment
-
-**Config**
-
-The environment.rb file is where we require all of our files to tie it all together. 
-
-**Lib** 
-
-Contains all classes
-
-**Spec**
-
-RSpec
-
+Nothing is Something is a talk by Sandi Metz, given at the 2015 RailsConf. 
+This talk goes over the _null object pattern_ I recreated the code example here. 
+https://www.youtube.com/watch?v=29MAL8pJImQ

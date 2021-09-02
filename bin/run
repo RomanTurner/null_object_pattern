@@ -11,7 +11,7 @@ Animal.new(name: "duck")
 
 ids = ["pig", "", "sheep"]
 
-animals = ids.map { |id| GaurenteedAnimal.find(id) }
+animals = ids.map { |id| GuaranteedAnimal.find(id) }
 
 # If we don't care about nil than we can
 # animals.compact
